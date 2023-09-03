@@ -1,23 +1,20 @@
-import './App.css';
-import './component/component.css';
-import { PageHeader } from './component/PageHeader';
-import { Post } from './component/Post';
-import {Box} from './component/Box';
+import Btn from './Components/btn';
+import Headerr from './Components/Headerr';
+import Post from './Components/Post';
+import './Components/components.css'
 
 function App() {
   return (
     <div className="App">
-      <PageHeader />
-      <Post />
-      <Box />
+      <header className="App-header">
+        <Headerr />
+        <Btn />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
 
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-
-
-
+      </header>
     </div>
   );
 }
